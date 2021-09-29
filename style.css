@@ -1,0 +1,110 @@
+/* full background */
+body {
+  background: #58585A;
+  padding: 60px 0 0 8px; /* padding-top overridden by theme */
+  font-family: "Leelawadee UI";
+}
+
+/* background borders */
+body hr {
+  border-color: white;
+  margin: 10px 0;
+  font-family: "Leelawadee UI";
+
+}
+
+/* markdown "###" title size and font */
+h3 {
+  font-size: 16px;
+  font-family: "Leelawadee UI";
+  font-weight: bold;
+}
+
+/* chart title */
+.chart-title{
+  font-size: 13px;
+}
+
+/* paragraph */
+p {
+  font-size: 12px;
+  font-family: "Leelawadee UI";
+
+}
+
+/* hyperlink */
+a {
+    color: #EE5859;
+}
+
+/* hyperlink hover */
+a:hover {
+    color: #D2CBB8;
+}
+                          
+/* navbar */
+.navbar {
+  background-color:#58585A;
+  border-color:#c7c8ca;
+  font-family: "Leelawadee UI";
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/* navbar brand */
+.navbar-brand {
+color:white;
+}
+
+/* rest of top bar: tabs */
+.navbar-nav {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+/* tabs hover and active */
+.navbar-nav li a:hover, .navbar-nav > .active > a {
+  color: white !important;
+  background-color: #EE5859 !important;
+}
+
+/* sidebar */
+.section.sidebar {
+  background-color: #58585A;
+  font-family: "Leelawadee UI";
+  color:white;
+  border-color:#c7c8ca;
+}
+
+/* sidebarpanel background*/
+.well {
+  background-color: #58585A;
+  color: white;
+  font-size: 12px;
+  font-family: "Leelawadee UI";
+}
+
+/* inputs container */
+.shiny-input-container {
+  color: white;
+  font-size: 12px;
+  font-family: "Leelawadee UI";
+}
+
+/* selectize border color */
+.selectize-input {
+  border-color: #EE5859;
+  outline: 0;
+}
+
+/* selectize focus border color */
+.selectize-input.focus {
+  border-color: #EE5859;
+  outline: 0;
+}
+
+/* selectize dropdown */
+.selectize-dropdown-content .active {
+  background: #EE5859 !important;
+  color: white !important;
+}

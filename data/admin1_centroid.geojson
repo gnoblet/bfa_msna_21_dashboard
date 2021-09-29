@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "centroid",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ADM1_FR": "Boucle du Mouhoun" }, "geometry": { "type": "Point", "coordinates": [ -3.488905273956995, 12.535928625717061 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Centre-Nord" }, "geometry": { "type": "Point", "coordinates": [ -0.973663815036345, 13.271209571461149 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Centre-Sud" }, "geometry": { "type": "Point", "coordinates": [ -1.011193932799999, 11.218820777599998 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Sud-Ouest" }, "geometry": { "type": "Point", "coordinates": [ -3.237190288933456, 10.475218632570396 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Centre-Est" }, "geometry": { "type": "Point", "coordinates": [ -0.186051541748241, 11.60759750305577 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Centre-Ouest" }, "geometry": { "type": "Point", "coordinates": [ -2.221549365706859, 11.796155692733301 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Cascades" }, "geometry": { "type": "Point", "coordinates": [ -4.570346915854461, 10.354485547676271 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Plateau-Central" }, "geometry": { "type": "Point", "coordinates": [ -0.7799489984, 12.341038841599998 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Est" }, "geometry": { "type": "Point", "coordinates": [ 0.926481774860055, 12.240289460081121 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Hauts-Bassins" }, "geometry": { "type": "Point", "coordinates": [ -4.331170036667862, 11.365156745259494 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Centre" }, "geometry": { "type": "Point", "coordinates": [ -1.670922128, 12.218615052799999 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Nord" }, "geometry": { "type": "Point", "coordinates": [ -2.283147668599195, 13.459990520109423 ] } },
+{ "type": "Feature", "properties": { "ADM1_FR": "Sahel" }, "geometry": { "type": "Point", "coordinates": [ -0.44668424, 14.306620784 ] } }
+]
+}
