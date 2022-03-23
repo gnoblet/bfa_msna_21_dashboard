@@ -328,11 +328,14 @@ div(
   reactbl <- reactable::reactable(dt, 
                                   rownames = F,
                                   height = "600px",
+                                  style = list(fontFamily = "Leelawadee UI"),
                                   defaultColDef = colDef(
                                     cell = reactablefmtr::color_tiles(
                                       dt, 
                                       colors = c("white","#EE5859"),
-                                      span = TRUE)))
+                                      span = TRUE),
+                                    align = "center")
+  )
   
   return(reactbl)
 #     formattable::formattable(list(formattable::area(col =  which(!(names(dt) %in% c("Sous-secteur",
